@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f8f4ec;
+    color: #3e2c1c;
+    padding: 20px;
+}
+
+header {
+    background-color: #5a3b1e;
+    color: #f5d27a;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: #f8e6b8;
+}
+
+h2 {
+    margin: 20px 0 10px;
+    color: #6b4a2b;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    background-color: #fffdf8;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+caption {
+    background-color: #8b5e2e;
+    color: #fff4cc;
+    padding: 8px;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #d2b48c;
+    text-align: center;
+}
+
+th {
+    background-color: #ead6a3;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f6edd8;
+}
+
+#available th {
+    background-color: #e3c887;
+}
+
+div input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #c2a36b;
+    border-radius: 4px;
+}
+
+div input[type="text"]:focus {
+    outline: none;
+    border-color: #8b5e2e;
+}
+
+div button {
+    padding: 8px 14px;
+    border: none;
+    background-color: #8b5e2e;
+    color: #fff4cc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div button:hover {
+    background-color: #6b4a2b;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+lebal {
+    font-weight: bold;
+    margin-right: 6px;
+    color: #5a3b1e;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    header h3 {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        font-size: 13px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    caption {
+        font-size: 14px;
+    }
+
+    div input[type="text"] {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    div button {
+        width: 100%;
+    }
+}
