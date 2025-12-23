@@ -87,5 +87,137 @@ class Library
             return false;
         }
     }
+
+    //Function to show all existing users to admin
+    public function showusers()
+    {
+        $sql="SELECT uname,email,c_time FROM users";
+        $result=$this->conn->query($sql);
+        if($result->num_rows>0)
+        {
+            while($row=$result->fetch_assoc())
+            {
+                echo "<tr>";
+                echo "<td>".$row['uname']."</td>";
+                echo "<td>".$row['email']."</td>";
+                echo "<td>".$row['c_time']."</td>";
+                echo "</tr>";
+            }
+        }
+        else
+        {
+            echo "<script>";
+            echo "alert('No records found')";
+            echo "</script>";
+        }
+    }
+
+    //Function to show books
+    public function showbooks()
+    {
+        $sql="SELECT * FROM books";
+        $result=$this->conn->query($sql);
+        if($result->num_rows>0)
+        {
+            while($row=$result->fetch_assoc())
+            {
+                echo "<tr>";
+                echo "<td>".$row['book']."</td>";
+                echo "<td>".$row['author']."</td>";
+                echo "<td>".$row['category']."</td>";
+                echo "<td>".$row['link']."</td>";
+                echo "</tr>";
+            }
+        }
+        else
+        {
+            echo "<script>";
+            echo "alert('No records found')";
+            echo "</script>";
+        }
+    }
+
+    //Function to add books
+    public function addbook()
+    {
+        $book=$_POST['book'];
+        $book=filter_var($book,FILTER_SANITIZE_SPECIAL_CHARS);
+        $author=$_POST['author'];
+        $author=filter_var($author,FILTER_SANITIZE_SPECIAL_CHARS);
+        $category=$_POST['category'];
+        $category=filter_var($category,FILTER_SANITIZE_SPECIAL_CHARS);
+        $link=$_POST['link'];
+        $link=filter_var($link,FILTER_SANITIZE_SPECIAL_CHARS);
+        $sql="SELECT * FROM books WHERE book='$book'";
+        $result=$this->conn->query($sql);
+        if($result->num_rows>0)
+        {
+            return false;
+        }
+        else
+        {
+            $sql="INSERT INTO books(books book,author,category,link) VALUES('$book','$author','$category','$link')";
+            if($this->conn->query($sql))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+
+    //Function to delete book
+    public function deletebook()
+    {
+        $book=$_POST['book'];
+        $book=filter_var($book,FILTER_SANITIZE_SPECIAL_CHARS);
+        $sql="SELECT book FROM books WHERE book='$book'";
+        $result=$this->conn->query($sql);
+        if($result->num_rows>0)
+        {
+            $sql="DELETE FROM books WHERE book='$book'";
+            if($this->conn->query($sql))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    //Function to search books
+    public function searchbook()
+    {
+        $search=$_POST['search'];
+        $search=filter_var($search,FILTER_SANITIZE_SPECIAL_CHARS);
+        $sql="SELECT * FROM books WHERE book='$search' OR author='$search' OR category='$search'";
+        $result=$this->conn->query($sql);
+        if($result->num_rows>0)
+        {
+            while($row=$result->fetch_assoc())
+            {
+                echo "<tr>";
+                echo "<td>".$row['book']."</td>";
+                echo "<td>".$row['author']."</td>";
+                echo "<td>".$row['link']."</td>";
+                echo "</tr>";
+            }
+        }
+        else
+        {
+            echo "<script>";
+            echo "alert('No Books found')";
+            echo "</script>";
+        }
+
+    }
 }
 ?>
