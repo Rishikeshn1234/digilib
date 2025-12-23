@@ -1,3 +1,4 @@
+<?php include "library.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,15 +76,43 @@ a:hover{
 <div class="card">
     <img src="gmulogo.jpg" class="logo">
     <h2>GM University E-Library</h2>
-    <form method="post">
+    <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <input type="text" name="uname" placeholder="Username" required>
         <input type="email" name="email" placeholder="Email" required>
         <input type="password" name="password" placeholder="Password" required>
         <input type="password" name="cpassword" placeholder="Confirm Password" required>
-        <button type="submit">Register</button>
+        <button name="submit" value="submit" type="submit">Register</button>
     </form>
     <p>Already have an account? <a href="login.php">Login</a></p>
 </div>
-
 </body>
 </html>
+<?php
+$obj=new Library();
+if(isset($_POST['submit']))
+{
+    if($obj->connect_db("localhost","root","","elib"))
+    {
+        if($obj->register())
+        {
+            echo "<script>";
+            echo "alert('Registration successful! Login to continue');";
+            echo "window.location.href='login.php';";
+            echo "</script>";
+        }
+        else
+        {
+            echo "<script>";
+            echo "alert('Username already taken/ Something went wrong')";
+            echo "</script>";
+        }
+    }
+    else
+    {
+        echo "<script>";
+        echo "alert('Unable to connect to database')";
+        echo "</script>";
+    }
+    $obj->close_db();
+}
+?>

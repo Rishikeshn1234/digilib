@@ -109,8 +109,8 @@ if(isset($_POST['submit']))
             if($obj->login())
             {
                 echo "<script>";
-                echo "alert('Login successful')";
-                echo "window.location.href='user.php'";
+                echo "alert('Login successful');";
+                echo "window.location.href='user.php';";
                 echo "</script>";
             }
             else
