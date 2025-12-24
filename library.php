@@ -125,7 +125,7 @@ class Library
                 echo "<td>".$row['book']."</td>";
                 echo "<td>".$row['author']."</td>";
                 echo "<td>".$row['category']."</td>";
-                echo "<td>".$row['link']."</td>";
+                echo "<td><a href='".$row['link']."'>Downlode/View</a></td>";
                 echo "</tr>";
             }
         }
@@ -207,7 +207,8 @@ class Library
                 echo "<tr>";
                 echo "<td>".$row['book']."</td>";
                 echo "<td>".$row['author']."</td>";
-                echo "<td>".$row['link']."</td>";
+                echo "<td>".$row['category']."</td>";
+                echo "<td><a href='".$row['link']."'>Downlode/View</a></td>";
                 echo "</tr>";
             }
         }
