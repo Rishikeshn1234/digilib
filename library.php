@@ -156,7 +156,7 @@ class Library
         }
         else
         {
-            $sql="INSERT INTO books(books book,author,category,link) VALUES('$book','$author','$category','$link')";
+            $sql="INSERT INTO books(book,author,category,link) VALUES('$book','$author','$category','$link')";
             if($this->conn->query($sql))
             {
                 return true;
