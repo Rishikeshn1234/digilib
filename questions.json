@@ -1,0 +1,313 @@
+{
+  "quiz_title": "GM University Physics Quiz",
+  "total_questions": 50,
+  "questions": [
+    {
+      "q_no": 1,
+      "question": "What is the SI unit of force?",
+      "options": ["Joule", "Newton", "Pascal", "Watt"],
+      "correct_option": "Newton"
+    },
+    {
+      "q_no": 2,
+      "question": "Which quantity is a vector?",
+      "options": ["Speed", "Distance", "Mass", "Velocity"],
+      "correct_option": "Velocity"
+    },
+    {
+      "q_no": 3,
+      "question": "What is the acceleration due to gravity on Earth?",
+      "options": ["9.8 m/s²", "8.9 m/s²", "10 m/s²", "9.8 km/s²"],
+      "correct_option": "9.8 m/s²"
+    },
+    {
+      "q_no": 4,
+      "question": "Which law states that every action has an equal and opposite reaction?",
+      "options": ["First law", "Second law", "Third law", "Law of gravitation"],
+      "correct_option": "Third law"
+    },
+    {
+      "q_no": 5,
+      "question": "What is the SI unit of work?",
+      "options": ["Newton", "Joule", "Watt", "Pascal"],
+      "correct_option": "Joule"
+    },
+    {
+      "q_no": 6,
+      "question": "Which instrument is used to measure electric current?",
+      "options": ["Voltmeter", "Ammeter", "Ohmmeter", "Galvanometer"],
+      "correct_option": "Ammeter"
+    },
+    {
+      "q_no": 7,
+      "question": "What type of energy does a moving object have?",
+      "options": ["Potential energy", "Kinetic energy", "Thermal energy", "Chemical energy"],
+      "correct_option": "Kinetic energy"
+    },
+    {
+      "q_no": 8,
+      "question": "What is the SI unit of power?",
+      "options": ["Joule", "Watt", "Volt", "Ampere"],
+      "correct_option": "Watt"
+    },
+    {
+      "q_no": 9,
+      "question": "Which particle has a negative charge?",
+      "options": ["Proton", "Neutron", "Electron", "Positron"],
+      "correct_option": "Electron"
+    },
+    {
+      "q_no": 10,
+      "question": "What is the speed of light in vacuum?",
+      "options": ["3 × 10⁸ m/s", "3 × 10⁶ m/s", "1.5 × 10⁸ m/s", "3 × 10⁵ m/s"],
+      "correct_option": "3 × 10⁸ m/s"
+    },
+
+    {
+      "q_no": 11,
+      "question": "Which law explains the relation between current and voltage?",
+      "options": ["Ohm’s Law", "Faraday’s Law", "Lenz’s Law", "Coulomb’s Law"],
+      "correct_option": "Ohm’s Law"
+    },
+    {
+      "q_no": 12,
+      "question": "What is the SI unit of electric charge?",
+      "options": ["Ampere", "Volt", "Coulomb", "Ohm"],
+      "correct_option": "Coulomb"
+    },
+    {
+      "q_no": 13,
+      "question": "Which mirror is used as a shaving mirror?",
+      "options": ["Plane mirror", "Convex mirror", "Concave mirror", "Cylindrical mirror"],
+      "correct_option": "Concave mirror"
+    },
+    {
+      "q_no": 14,
+      "question": "What type of lens is used to correct myopia?",
+      "options": ["Convex lens", "Concave lens", "Cylindrical lens", "Bifocal lens"],
+      "correct_option": "Concave lens"
+    },
+    {
+      "q_no": 15,
+      "question": "What is the unit of frequency?",
+      "options": ["Hertz", "Decibel", "Watt", "Second"],
+      "correct_option": "Hertz"
+    },
+    {
+      "q_no": 16,
+      "question": "Which device converts electrical energy into mechanical energy?",
+      "options": ["Generator", "Transformer", "Electric motor", "Battery"],
+      "correct_option": "Electric motor"
+    },
+    {
+      "q_no": 17,
+      "question": "What phenomenon explains the bending of light?",
+      "options": ["Reflection", "Refraction", "Diffraction", "Interference"],
+      "correct_option": "Refraction"
+    },
+    {
+      "q_no": 18,
+      "question": "Which gas is used in electric bulbs?",
+      "options": ["Oxygen", "Nitrogen", "Argon", "Hydrogen"],
+      "correct_option": "Argon"
+    },
+    {
+      "q_no": 19,
+      "question": "What is the SI unit of pressure?",
+      "options": ["Newton", "Pascal", "Joule", "Watt"],
+      "correct_option": "Pascal"
+    },
+    {
+      "q_no": 20,
+      "question": "Which force keeps planets in orbit?",
+      "options": ["Magnetic force", "Electrostatic force", "Gravitational force", "Nuclear force"],
+      "correct_option": "Gravitational force"
+    },
+
+    {
+      "q_no": 21,
+      "question": "What is the SI unit of temperature?",
+      "options": ["Celsius", "Fahrenheit", "Kelvin", "Joule"],
+      "correct_option": "Kelvin"
+    },
+    {
+      "q_no": 22,
+      "question": "Which wave does not require a medium?",
+      "options": ["Sound wave", "Water wave", "Light wave", "Seismic wave"],
+      "correct_option": "Light wave"
+    },
+    {
+      "q_no": 23,
+      "question": "Which color has the highest frequency?",
+      "options": ["Red", "Green", "Blue", "Violet"],
+      "correct_option": "Violet"
+    },
+    {
+      "q_no": 24,
+      "question": "What is the unit of magnetic field?",
+      "options": ["Tesla", "Weber", "Henry", "Ampere"],
+      "correct_option": "Tesla"
+    },
+    {
+      "q_no": 25,
+      "question": "Which law explains electromagnetic induction?",
+      "options": ["Ohm’s Law", "Faraday’s Law", "Newton’s Law", "Boyle’s Law"],
+      "correct_option": "Faraday’s Law"
+    },
+
+    {
+      "q_no": 26,
+      "question": "What is the unit of resistance?",
+      "options": ["Volt", "Ampere", "Ohm", "Watt"],
+      "correct_option": "Ohm"
+    },
+    {
+      "q_no": 27,
+      "question": "Which energy is stored in a stretched spring?",
+      "options": ["Kinetic", "Thermal", "Potential", "Chemical"],
+      "correct_option": "Potential"
+    },
+    {
+      "q_no": 28,
+      "question": "What is the focal length of a plane mirror?",
+      "options": ["Zero", "Infinity", "Half of radius", "Twice the radius"],
+      "correct_option": "Infinity"
+    },
+    {
+      "q_no": 29,
+      "question": "Which instrument measures atmospheric pressure?",
+      "options": ["Thermometer", "Manometer", "Barometer", "Hygrometer"],
+      "correct_option": "Barometer"
+    },
+    {
+      "q_no": 30,
+      "question": "What type of motion does a pendulum show?",
+      "options": ["Linear", "Circular", "Oscillatory", "Random"],
+      "correct_option": "Oscillatory"
+    },
+
+    {
+      "q_no": 31,
+      "question": "Which particle has no charge?",
+      "options": ["Proton", "Electron", "Neutron", "Ion"],
+      "correct_option": "Neutron"
+    },
+    {
+      "q_no": 32,
+      "question": "What is the unit of energy?",
+      "options": ["Watt", "Joule", "Newton", "Pascal"],
+      "correct_option": "Joule"
+    },
+    {
+      "q_no": 33,
+      "question": "Which phenomenon causes rainbow formation?",
+      "options": ["Reflection", "Diffraction", "Dispersion", "Interference"],
+      "correct_option": "Dispersion"
+    },
+    {
+      "q_no": 34,
+      "question": "What is the SI unit of momentum?",
+      "options": ["kg·m/s", "N·s", "J·s", "Both A and B"],
+      "correct_option": "Both A and B"
+    },
+    {
+      "q_no": 35,
+      "question": "Which mirror gives a virtual and diminished image?",
+      "options": ["Concave", "Plane", "Convex", "Parabolic"],
+      "correct_option": "Convex"
+    },
+
+    {
+      "q_no": 36,
+      "question": "What is the boiling point of water at sea level?",
+      "options": ["90°C", "100°C", "110°C", "120°C"],
+      "correct_option": "100°C"
+    },
+    {
+      "q_no": 37,
+      "question": "Which energy conversion occurs in a generator?",
+      "options": ["Electrical to mechanical", "Mechanical to electrical", "Chemical to electrical", "Thermal to mechanical"],
+      "correct_option": "Mechanical to electrical"
+    },
+    {
+      "q_no": 38,
+      "question": "Which law states pressure is inversely proportional to volume?",
+      "options": ["Charles’ Law", "Boyle’s Law", "Gay-Lussac’s Law", "Newton’s Law"],
+      "correct_option": "Boyle’s Law"
+    },
+    {
+      "q_no": 39,
+      "question": "What is the unit of electric potential difference?",
+      "options": ["Ampere", "Volt", "Ohm", "Coulomb"],
+      "correct_option": "Volt"
+    },
+    {
+      "q_no": 40,
+      "question": "Which wave property depends on frequency?",
+      "options": ["Wavelength", "Amplitude", "Speed", "Energy"],
+      "correct_option": "Energy"
+    },
+
+    {
+      "q_no": 41,
+      "question": "Which force is the strongest?",
+      "options": ["Gravitational", "Electromagnetic", "Nuclear", "Frictional"],
+      "correct_option": "Nuclear"
+    },
+    {
+      "q_no": 42,
+      "question": "What type of lens is used in a magnifying glass?",
+      "options": ["Concave", "Convex", "Cylindrical", "Bifocal"],
+      "correct_option": "Convex"
+    },
+    {
+      "q_no": 43,
+      "question": "What is the unit of electric power?",
+      "options": ["Volt", "Ampere", "Watt", "Ohm"],
+      "correct_option": "Watt"
+    },
+    {
+      "q_no": 44,
+      "question": "Which quantity remains constant in uniform circular motion?",
+      "options": ["Velocity", "Speed", "Acceleration", "Direction"],
+      "correct_option": "Speed"
+    },
+    {
+      "q_no": 45,
+      "question": "Which phenomenon explains echo?",
+      "options": ["Refraction", "Reflection", "Diffraction", "Interference"],
+      "correct_option": "Reflection"
+    },
+
+    {
+      "q_no": 46,
+      "question": "What is the SI unit of mass?",
+      "options": ["Gram", "Kilogram", "Newton", "Pound"],
+      "correct_option": "Kilogram"
+    },
+    {
+      "q_no": 47,
+      "question": "Which law explains conservation of energy?",
+      "options": ["First law of thermodynamics", "Second law", "Third law", "Newton’s law"],
+      "correct_option": "First law of thermodynamics"
+    },
+    {
+      "q_no": 48,
+      "question": "Which device increases voltage?",
+      "options": ["Motor", "Generator", "Step-up transformer", "Rectifier"],
+      "correct_option": "Step-up transformer"
+    },
+    {
+      "q_no": 49,
+      "question": "What is the unit of magnetic flux?",
+      "options": ["Tesla", "Weber", "Henry", "Ampere"],
+      "correct_option": "Weber"
+    },
+    {
+      "q_no": 50,
+      "question": "Which energy is associated with motion?",
+      "options": ["Potential", "Thermal", "Kinetic", "Chemical"],
+      "correct_option": "Kinetic"
+    }
+  ]
+}
